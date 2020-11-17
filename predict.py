@@ -3,7 +3,7 @@ import fasttext
 
 
 class PythonPredictor:
-    def __init__(self, config):
+    def __init__(self):
         wget.download(
             "https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin", "/tmp/model"
         )
